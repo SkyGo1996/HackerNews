@@ -1,0 +1,53 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --backgroundColor: #333333;
+  --textColor: #fff;
+  --primaryColor: #00FA55;
+  --secondaryColor: #019E36;
+  --ternaryColor: #185B33;
+  --grey: #A3A2A4;
+  --cardBackgroundColor: #2e2d2d;
+  --cardBoxShadow: 0px 15px 30px rgba(117, 117, 117, 0.15)
+}
+
+body {
+  background-color: var(--backgroundColor)
+}
+
+h1,h2,h3,h4 {
+  margin: 0;
+  color: var(--textColor)
+}
+
+p {
+  color: var(--textColor)
+}
+
+body {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.font-small {
+  font-size: small;
+}
+
+.font-medium {
+  font-size: medium;
+}
+
+.text-space-medium {
+  margin-left: 20px;
+}
+
+.text-space-small {
+  margin-left: 10px;
+}
+
+.text-space-smaller {
+  margin-left: 5px;
+}

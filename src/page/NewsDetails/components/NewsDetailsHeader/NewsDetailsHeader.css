@@ -1,0 +1,29 @@
+.newsDetailsTitleContainer {
+  width: 50%;
+  transition: 0.5s;
+}
+
+.newsDetailsTitleHeaderContainer {
+  justify-content: space-between;
+}
+
+.newsDetailsTitle {
+  color: var(--secondaryColor)
+}
+
+.newsDetailsText {
+  margin-top: 2rem;
+  color: var(--textColor)
+}
+
+.commentTitle {
+  font-size: larger;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1080px){
+  .newsDetailsTitleContainer {
+    width: 95%;
+  }
+}

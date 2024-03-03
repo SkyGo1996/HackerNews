@@ -1,0 +1,31 @@
+.commentCardContainer {
+  width: 50vw;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: var(--cardBackgroundColor);
+  box-shadow: var(--cardBoxShadow);
+}
+
+.byCommentCard {
+  font-weight: bold;
+  color: var(--secondaryColor);
+  margin: 0
+}
+
+.commentCardInnerHTML {
+  color: var(--textColor);
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.commentCardInnerHTML a{
+  text-decoration-color: #4B89C6;
+  color: #4B89C6;
+}
+
+@media screen and (max-width: 1080px){
+  .commentCardContainer {
+    width: 95vw;
+  }
+}
